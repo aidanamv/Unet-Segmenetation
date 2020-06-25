@@ -1,0 +1,4 @@
+255 0 0	Compone
+0 255 0	Comptwo
+255 255 0	Both
+

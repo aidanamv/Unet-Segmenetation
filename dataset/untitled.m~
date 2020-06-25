@@ -1,0 +1,28 @@
+close all
+imagefiles = dir('*_labeled.png');      
+nfiles = length(imagefiles);    % Number of files found
+for ii=1:nfiles
+   currentfilename = imagefiles(ii).name;
+   currentimage = imread(currentfilename);
+   images{ii} = currentimage;
+end
+img=imread(imagefiles(5).name);
+A=img(:,:,1);
+
+figure
+imshow(img)
+figure
+imshow(A)
+    for j=1:600
+         for k=1:1400
+             for 
+            if A(j,k)<255
+               A(j,k)=0;
+        
+            end
+    end
+    end   
+figure
+imshow(A)
+
+
